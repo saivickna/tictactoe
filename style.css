@@ -16,4 +16,9 @@
   border-width: 1px;
   border-style: solid;
   cursor: pointer;
+   line-height: 80px;
+}
+.row:hover {
+  border-color: skyblue;
+  border-width: 1px;
 }
