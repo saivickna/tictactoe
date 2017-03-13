@@ -22,7 +22,9 @@ TicTacToeBoard.prototype.checkDefined = function(i) {
   return (this.game[i] === undefined);
 }
 TicTacToeBoard.prototype.set = function(i, player) {
-  this.game[i] = player;
+  if (this.game[i] === undefined) {
+    this.game[i] = player;
+  }
 }
 TicTacToeBoard.prototype.playerCanGo = function() {
   for (var i = 0; i < this.game.length; i++) {
@@ -32,3 +34,5 @@ TicTacToeBoard.prototype.playerCanGo = function() {
   }
   return false;
 }
+
+module.exports = TicTacToeBoard;
