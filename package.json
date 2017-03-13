@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/saivickna/tictactoe/issues"
   },
-  "homepage": "https://github.com/saivickna/tictactoe#readme"
+  "homepage": "https://github.com/saivickna/tictactoe#readme",
+  "dependencies": {
+    "mocha": "^3.2.0"
+  }
 }
