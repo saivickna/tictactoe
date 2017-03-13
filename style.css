@@ -1,0 +1,19 @@
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.board {
+  display: flex;
+  flex-direction: row;
+}
+.row {
+  width: 80px;
+  height: 80px;
+  border-color: black;
+  /*background-color: grey;*/
+  text-align: center;
+  vertical-align: middle;
+  border-width: 1px;
+  border-style: solid;
+  cursor: pointer;
+}
